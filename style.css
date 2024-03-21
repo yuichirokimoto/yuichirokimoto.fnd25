@@ -1,1 +1,162 @@
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    font-size: 1.2rem;
+    background: linear-gradient(to right, #f0eaea, #77ebeb);
+    /* width: 100vw;
+    height: 100vh; */
+    /* overflow: hidden; */
+}
+
+.family ul{
+    text-align: left;
+    /* display: flex; */
+    width: 50%;
+    margin: 30px auto;
+    align-items: center;
+    font-weight: 550;
+    /* justify-content: space-around; */
+    list-style: none;
+}
+.family-pic{
+    text-align: center;
+}
+
+.middle{
+    font-size: 1.2rem;
+    background: linear-gradient(to right, #fbfcfb, #a6eb7e);
+    text-align: center;
+    font-weight: 550;
+}
+
+.taitle-area{
+    padding: 10px 0;
+    width: auto;
+    text-align: center;
+}
+
+.mokuzi-area{
+    display: flex;
+    width: 50%;
+    margin: 30px auto;
+    align-items: center;
+    font-weight: 550;
+    justify-content: space-around;
+}
+
+.mokuzi-taitle ul{
+    list-style: none;
+}
+
+.mokuzi-naiyou{
+    text-align: center;  
+}
+
+.mokuzi-naiyou ol li{
+    display: inline-block;
+    padding: 0 10px;    
+}
+
+.zikoshokai-area{
+    display: flex;
+    margin: 30px auto;
+    align-items: center;
+    font-weight: 550;
+    justify-content: space-around;
+    padding: 10px 0;
+    width: auto; 
+    /* text-align: center; */
+}
+
+.zikoshokai ul li{
+    /* display: inline-block; */
+    padding: 0 10px;    
+    list-style: none;
+}
+
+#control{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 100px;
+}
+
+.control{
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    display: flex;
+    margin: 30px auto;
+    align-items: center;
+    font-weight: 550;
+    justify-content: space-around;
+    padding: 10px 0;
+    width: auto; 
+}
+
+
+
+
+#leftBtn{
+    cursor: pointer;
+    transform: rotate(180deg);
+    width: 30%;
+    text-align: center;
+    
+}
+
+/* .arrow-right {
+    right: 0;
+} */  
+
+/* スライダーのスタイル */
+#cooking {
+    /* width: calc((150px + 10px) * 4); */
+    width: calc(150px * 4 + 30px); 
+    overflow: hidden;
+    position: relative;
+    margin-right: 10px;
+    padding: 50px;
+}
+
+#cooking img {
+    display: inline-block; /* 横並びに配置 */
+    width: 150px; /* 画像の幅 */
+    margin-right: 10px; 
+}
+
+/* 左右のナビゲーションボタンのスタイル */
+.arrow-left, .arrow-right {
+    cursor: pointer;
+    position: absolute;
+    /* top: 50%; */
+    transform: translateY(-50%);
+    padding: 10px;
+    z-index: 1;
+    text-align: center;
+}
+.arrow-left {
+    /* height: 0px; */
+    text-align: center;
+    /* width: 100px; */
+    left: 30%;
+}
+.arrow-right {
+    text-align: center;
+    right: 30%;
+}
+#rightBtn{
+    cursor: pointer;
+    width: 30%;
+    text-align: center;
+}
+
+
