@@ -1,21 +1,158 @@
 <!DOCTYPE html>
 <html lang="ja">
-
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="theme-color" content="#000000">
-  <script type="text/javascript" src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentaion</title>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
-
 <body>
-  <h1>ああああDIG プログラミング基礎へようこそ！</h1>
-  <h2>いいいいいいMac をお使いの方は、 <font color="blue"> Cmd + Option + J</font><br>
-    Windows/Linux をお使いの方は、 <font color="blue"> Control+Shift+J</font> <br>
-    をクリックして、デベロッパーツールを開いてください。</h2>
-  <h2>下記にユニコーンの画像が表示されていれば成功です！</h2>
-  <img src="https://cdn.dribbble.com/users/1281272/screenshots/4515441/unicorn.gif">
-  <h3>30分悩んで進まなくなったら…helpチャンネルで質問してみましょう！</h3>
-</body>
+    <div class="main">
+        <div id="トライ">
+            <h1>あああ</h1>
+        </div>
+        <div class="taitle-area">
+            <h2>FND25期_最終プレゼンテーション(17_木本雄一郎)</h2>
+            <h3>貴重なお時間、楽しんでいただけるよう頑張ります！</h3>
+        </div>
+        
+        <div class="mokuzi-area">
+            <div class="mokuzi-taitle">
+                <ul>
+                    <li>【目次】</li>
+                </ul>
+            </div>            
+            <div class="mokuzi-naiyou">
+                <ol>
+                    <li>1、自己紹介</li>
+                    <li>2、職場</li>
+                    <li>3、お仕事</li>
+                    <li>4、最後に...</li>
+                </ol>
+            </div>
+        </div>
 
+        <div class="zikoshokai-area">
+            
+            <div class="zikoshokai">
+                
+                <h3>1、自己紹介</h3><br>
+                <ul>
+                    <li>名前：木本雄一郎</li>
+                    <li>年齢：４０歳</li>
+                    <li>出身：静岡県（安城市在住）</li>
+                    <li>趣味：音楽（三線）、お酒に合う料理</li>
+                    <li>好きなこと：自分の好きな人と乾杯すること！（家族や仲間）</li>
+                </ul>
+            </div>
+            
+            <div class="house">
+                
+                <ul>
+                    <!-- <img src="./picture/home1.jpg" width="300" height="200" alt="お家の写真">
+                        <img src="./picture/home2.jpg" width="300" height="200" alt="お家の写真"> -->
+                        <img src="./picture/kakizaki06_R.jpg" width="300" height="200" alt="お家の写真">
+                        <img src="./picture/house1.jpg" width="300" height="200" alt="お家の写真">
+                        
+                    </ul>
+                </div>
+            </div>
+            <div><br></div>
+            
+            <!-- control section -->
+            <div  id="control" class="control">            
+                <div class="arrow-right" onclick="moveSlide(1)">
+                    <img src="./picture/矢印アイコン　右4.png" id="rightBtn" />
+                </div>
+                <div id="cooking">
+                    <img src="C:\dig-foundations\カレー.png" width="150" height="200" alt="カレー">
+                    <img src="C:\dig-foundations\サラダ.png" width="150" height="200" alt="サラダ">
+                    <img src="C:\dig-foundations\マリネ.png" width="150" height="200" alt="マリネ">
+                    <img src="C:\dig-foundations\豚汁.png" width="150" height="200" alt="豚汁">
+                    <img src="C:\dig-foundations\Presen_DIG\picture\chikuzenni.png" width="150" height="200" alt="カレー">
+                    <img src="./picture/taco.jpg" width="150" height="200" alt="マリネ">
+                    <img src="./picture/oden.png" width="150" height="200" alt="豚汁">
+                    <img src="./picture/beer.png" width="150" height="200" alt="カレー">
+                </div>
+                <div class="arrow-left"  onclick="moveSlide(-1)">
+                    <img src="./picture/矢印アイコン　右4.png" id="leftBtn" />
+                </div>
+
+        <div><br></div><br>
+            </div>
+                <div class="family">
+                    <ul>
+                        <li><br><br>家族：チャレンジャーな奥様と高１、中３、中１の若いメンズと同居 </li>
+                        <li>先日名古屋ウィメンズマラソンを走ってました！ </li>
+                        <li> 息子はYouTuber！（登録者170人で父より発信力がある笑）<br> </li>
+                        <a href="https://www.youtube.com/results?search_query=%E3%82%AD%E3%83%A2%E3%83%86%E3%82%A3%E3%83%BC%E3%82%BA">
+                            ■キモティーズメンバーの日常</a>            
+                    </ul>
+                </div>
+                <div class="family-pic">
+                    <img src="./picture/guys.jpg"  width="200" height="200"alt="">
+                    <img src="./picture/guys2.jpg"  width="200" height="200"alt="">
+                    <img src="./picture/guys3.jpg"  width="250" height="200"alt="">
+                    <img src="./picture/withwife.jpg"  width="300" height="200"alt="">
+                </div>
+            </div>
+            <div class="middle">
+                <div class="shokuba"> 
+                    <h3>2、職場紹介</h3><br>                   
+                    <ul>
+                        <li>職場：堤工場　塗装成形部　第一塗装課</li>
+                        <img src="C:\dig-foundations\塗装工場.png"  width="1000" height="750" alt="塗装工場">
+                        <li>経歴：入社２０年ずっとライン作業！車づくりがお仕事の現場のベテランです！<br>
+                            PCはかなり苦手でコピペのショートカットも知りませんでした笑<br>
+                            仕事上の縁があり、約２年前から現場デジタル化のお仕事をさせていただいております💻</li>
+                            <li>DIGの目的：色々ありますが、一番は業務上のスキルアップです！！</li>
+                        </ul>
+                    </div>
+                    <div class="video">
+                        <video width="600" height="450" controls>
+                            <source src="C:\dig-foundations\デジタルフラワー.mov" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <video width="600" height="450" controls>
+                            <source src="C:\dig-foundations\申送り電子化完了.mov" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    
+                </div>
+                <div class="last">
+                    <h3>3、お仕事紹介</h3><br>
+                    <div class="shigoto-pic">
+                        <img src="./picture/仕事紹介1.jpg"  width="600" height="450" alt="">
+                        <img src="./picture/仕事紹介2.jpg"  width="600" height="450" alt="">
+                        <img src="./picture/仕事紹介3.jpg"  width="600" height="450" alt="">
+                    </div>
+                    <h3>本来は今年から現場戻り予定でしたが、この仕事を成功させてから現場へ帰ろうと思います！！</h3><br>
+                </div>
+
+
+                
+                
+            </div>
+
+            
+        </div>
+            
+        </div> 
+            
+            
+        </div>
+            
+            
+        </div>
+        
+        
+        
+        
+        
+        
+        
+    </body>
+    <script type="text/javascript" src="script.js"></script>
 </html>
