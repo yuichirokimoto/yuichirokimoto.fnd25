@@ -14,8 +14,8 @@ let displayedPhotos = [
     "oden.png",
     "beer.png",
     "sanshin.jpg",
-    "beer2.png",
-    "beach2.png",
+    "beer2.jpg",
+    "beach2.jpg",
 ];
 
 // 初期表示
