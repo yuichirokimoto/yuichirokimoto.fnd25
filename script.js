@@ -13,6 +13,9 @@ let displayedPhotos = [
     "taco.jpg",
     "oden.png.",
     "beer.png",
+    "sanshin.jpg",
+    "beer2.png",
+    "beach2.png",
 ];
 
 // 初期表示
