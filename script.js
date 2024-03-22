@@ -11,7 +11,7 @@ let displayedPhotos = [
     "豚汁.png",
     "chikuzenni.png",
     "taco.jpg",
-    "oden.png.",
+    "oden.png",
     "beer.png",
     "sanshin.jpg",
     "beer2.png",
