@@ -42,10 +42,21 @@
 }
 
 .lalalast{
+    padding-top: 50px;
     font-size: 1.2rem;
     background: linear-gradient(to right, #323133, #030108);
     text-align: center;
     font-weight: 550;
+    padding-bottom: 50px;
+    padding-left: 25%;
+}
+.lalalast ul{
+    text-align: left;
+    width: auto;
+    padding: 5px;
+    /* text-align:center; */
+    color: #FFF;
+    list-style: none;
 }
 
 .taitle-area{
