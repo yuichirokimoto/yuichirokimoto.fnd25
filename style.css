@@ -169,5 +169,8 @@
 
 .gyomu-pic{
     text-align: center;
+    width: 50%;
+    margin: 30px auto;
+    align-items: center;
 }
 
