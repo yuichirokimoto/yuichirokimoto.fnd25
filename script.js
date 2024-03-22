@@ -5,15 +5,14 @@
 let slideIndex = 0;
 const slidesContainer = document.getElementById("cooking");
 let displayedPhotos = [
-    "C:\\dig-foundations\\カレー.png",
-    "C:\\dig-foundations\\サラダ.png",
-    "C:\\dig-foundations\\マリネ.png",
-    "C:\\dig-foundations\\豚汁.png",
-    // "C:\dig-foundations\Presen_DIG\picture\chikuzenni.png",
-    "C:\\dig-foundations\\Presen_DIG\\picture\\chikuzenni.png",
-    "C:\\dig-foundations\\Presen_DIG\\picture\\taco.jpg",
-    "C:\\dig-foundations\\Presen_DIG\\picture\\oden.png.",
-    "C:\\dig-foundations\\Presen_DIG\\picture\\beer.png",
+    "カレー.png",
+    "サラダ.png",
+    "マリネ.png",
+    "豚汁.png",
+    "chikuzenni.png",
+    "taco.jpg",
+    "oden.png.",
+    "beer.png",
 ];
 
 // 初期表示
