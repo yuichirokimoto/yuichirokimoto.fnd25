@@ -174,3 +174,13 @@
     align-items: center;
 }
 
+.shokuba-naiyou ul{
+    text-align: left;
+    /* display: flex; */
+    width: 50%;
+    margin: 30px auto;
+    align-items: center;
+    font-weight: 550;
+    /* justify-content: space-around; */
+    list-style: none;
+}
