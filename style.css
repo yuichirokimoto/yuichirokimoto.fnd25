@@ -184,3 +184,9 @@
     /* justify-content: space-around; */
     list-style: none;
 }
+
+.movie{
+    padding: 10px 0;
+    width: auto;
+    text-align: center;
+}
