@@ -34,6 +34,14 @@
     font-weight: 550;
 }
 
+.last{
+    font-size: 1.2rem;
+    background: linear-gradient(to right, #f0eaea, #eb77bf);
+    /* width: 100vw;
+    height: 100vh; */
+    /* overflow: hidden; */
+}
+
 .taitle-area{
     padding: 10px 0;
     width: auto;
