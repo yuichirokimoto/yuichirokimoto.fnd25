@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Presentaion</title>
     <link rel="stylesheet" href="style.css">
+    <link  rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     
 </head>
 <body>
@@ -52,7 +53,52 @@
         </div>
             <div><br></div>
         
-            <!-- control section -->
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <img src="カレー.png" width="600" height="300">
+                </div>
+                <div class="swiper-slide">
+                    <img src="サラダ.png"  width="600" height="300" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="マリネ.png"  width="600" height="300" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="豚汁.png" width="600" height="300">
+                </div>
+                <div class="swiper-slide">
+                    <img src="taco.jpg"  width="600" height="300" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="chikuzenni.png"  width="600" height="300" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="beach2.jpg" width="600" height="300">
+                </div>
+                <div class="swiper-slide">
+                    <img src="sanshin.jpg"  width="600" height="300" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="beer.png"  width="600" height="300" alt="">
+                </div>                    
+                ...
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+        
+<!--             <!-- control section -->
             <div  id="control" class="control">            
                 <div class="arrow-right" onclick="moveSlide(1)">
                     <img src="arrow_right.png" id="rightBtn" />
@@ -72,10 +118,10 @@
                 </div>
                 <div class="arrow-left"  onclick="moveSlide(-1)">
                     <img src="arrow_right.png" id="leftBtn" />
-                </div>
-
-        <div><br></div><br>
-            </div>
+               </div>
+                <div><br></div><br>
+            </div> -->
+         </div>
                 <div class="family">
                     <ul>
                         <li><br><br>家族：チャレンジャーな奥様と高１、中３、中１の若いメンズと同居 </li>
@@ -94,7 +140,8 @@
             </div>
             <div class="middle">
                 <div class="shokuba"> 
-                    <h3>2、職場紹介</h3><br>  
+                    <h3>2、職場紹介</h3>
+                    <h3>製造現場のデジタル化</h3><br>
                     <h3>職場：堤工場　塗装成形部　第一塗装課</h3>
                     <div class="shokuba-naiyou">
                      <img src="塗装工場.png"  width="1000" height="750" alt="塗装工場">
@@ -109,7 +156,8 @@
                 </div>                                   
             </div>
                 <div class="last">
-                    <h3>3、業務紹介</h3><br>
+                    <h3>3、業務紹介</h3>
+                     <h3>製造現場のデジタル化</h3><br>
                      <div class="gyomu-pic">
                         <img src="moushiokuri2.jpg"  width="450" height="300"alt="">
                         <img src="moushiokuri.jpg"  width="450" height="300"alt="">
@@ -146,7 +194,8 @@
     </div>             
   </div>
 </div>                 
-                   
-</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>      
 <script type="text/javascript" src="script.js"></script>
+</body>
+
 </html>
