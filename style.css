@@ -5,6 +5,12 @@
     box-sizing: border-box;
 }
 
+.swiper {
+    width: 600px;
+    height: 300px;
+  }
+  
+
 .main{
     font-size: 1.2rem;
     background: linear-gradient(to right, #f0eaea, #77ebeb);
